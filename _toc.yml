@@ -1,0 +1,10 @@
+format: jb-book
+root: intro.ipynb
+
+chapters:
+  - file: notebooks/intro.ipynb
+  - file: notebooks/chapter1.ipynb
+  - file: notebooks/chapter2.ipynb
+  - file: notebooks/chapter3.ipynb
+  - file: notebooks/chapter4.ipynb
+  - file: notebooks/chapter5.ipynb
