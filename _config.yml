@@ -30,7 +30,7 @@ sphinx:
       exclude_patterns: ["**/_*.yml", "**/*.md", "**/*.ipynb"]
 
     html_theme_options:
-      repository_url: "https://github.com/<your-username>/<your-repo>"
+      repository_url: "https://github.com/jjhvandervliet/test_project"
       use_repository_button: true
       use_issues_button: true
 
