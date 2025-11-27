@@ -1,5 +1,5 @@
 format: jb-book
-root: intro.ipynb
+root: notebooks/intro.ipynb
 
 chapters:
   - file: notebooks/intro.ipynb
