@@ -9,12 +9,15 @@ on:
       - book/_toc.yml
       - book/intro.md
       - book/notebooks/**
+      - book/requirements.txt
       - .github/workflows/call-deploy-book.yml
   workflow_dispatch:
 
 jobs:
   call-workflow:
     uses: TeachBooks/deploy-book-workflow/.github/workflows/deploy-book.yml@main
+    with:
+      book-dir: book
     secrets: inherit
     permissions:
       contents: read
