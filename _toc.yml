@@ -3,7 +3,7 @@ format: jb-book
 title: "My Jupyter Book"
 author: "Your Name"
 
-root: notebooks/intro.ipynb
+root: intro.md
 
 chapters:
   - file: notebooks/intro.ipynb
