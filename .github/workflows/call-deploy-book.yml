@@ -16,8 +16,6 @@ on:
 jobs:
   call-workflow:
     uses: TeachBooks/deploy-book-workflow/.github/workflows/deploy-book.yml@main
-    with:
-      book-dir: book
     secrets: inherit
     permissions:
       contents: read
