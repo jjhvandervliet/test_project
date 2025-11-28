@@ -4,13 +4,15 @@ author: "Aadi, Jochem, Raul, Victor"
 
 root: intro.md
 
-chapters:
-  - file: notebooks/Intro.ipynb
-  - file: notebooks/chapter1.ipynb
-  - file: notebooks/chapter2.ipynb
-  - file: notebooks/chapter3.ipynb
-  - file: notebooks/chapter4.ipynb
-  - file: notebooks/chapter5.ipynb
+parts:
+  - caption: "Part"
+    chapters:
+      - file: notebooks/Intro.ipynb
+      - file: notebooks/chapter1.ipynb
+      - file: notebooks/chapter2.ipynb
+      - file: notebooks/chapter3.ipynb
+      - file: notebooks/chapter4.ipynb
+      - file: notebooks/chapter5.ipynb
 
 options:
   numbered: true
