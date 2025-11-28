@@ -14,28 +14,40 @@ on:
 
 jobs:
   call-workflow:
+    # This job calls the external workflow to BUILD the book and UPLOAD the artifact
     uses: TeachBooks/deploy-book-workflow/.github/workflows/deploy-book.yml@main
     secrets: inherit
     permissions:
       contents: read
-      pages: write
+      pages: write # Keep these permissions here, as the external workflow likely needs them
       id-token: write
 
   deploy:
+    # This job handles the final deployment to GitHub Pages
     needs: call-workflow
+
+    # 1. CRITICAL FIX: Explicitly grant permissions for the deploy job
+    permissions:
+      pages: write
+      id-token: write
+
+    # 2. CRITICAL FIX: Link the job to the required GitHub Pages environment
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+
     runs-on: ubuntu-latest
     steps:
+      # 3. CRITICAL FIX: Download the artifact created by the 'call-workflow' job
       - name: Download artifact
         uses: actions/download-artifact@v4
         with:
-          name: github-pages # This is the typical name used by Jupyter Book artifacts.
-          path: ./_site # Download the artifact into a temporary directory named _site
+          name: github-pages # Use the name of the artifact uploaded by the external workflow
+          path: ./_site # Download into a temporary directory
 
+      # 4. Deploy the downloaded artifact
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4 # Updated to v4 (Recommended)
+        uses: actions/deploy-pages@v4
         with:
-          artifact_name: github-pages # Use the same name to point to the downloaded content
+          artifact_name: github-pages # Use the name of the downloaded artifact
