@@ -73,6 +73,7 @@ parse:
     - replacements
     - smartquotes
     - substitution
+    - hide_code
   myst_dmath_double_inline: true # Allow display math ($$) within an inline context
 
 bibtex_bibfiles:
