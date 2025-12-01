@@ -6,11 +6,19 @@ parts:
   - caption: "Part1"
     chapters:
       - file: notebooks/Intro.ipynb
+        title: "Introduction"
       - file: notebooks/chapter1.ipynb
+        title: "Chapter 1"
       - file: notebooks/tlsJNCsim.ipynb
+        title: "TLS JNC Simulation"
+
   - caption: "Part2"
     chapters:
       - file: notebooks/chapter2.ipynb
+        title: "Chapter 2"
       - file: notebooks/chapter3.ipynb
+        title: "Chapter 3"
       - file: notebooks/chapter4.ipynb
+        title: "Chapter 4"
       - file: notebooks/chapter5.ipynb
+        title: "Chapter 5"
