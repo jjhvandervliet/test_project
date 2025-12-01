@@ -1,20 +1,27 @@
 format: jb-book
+
 root: intro.md
 title: Introduction
 
-parts:  
+parts:
   - caption: "Introduction"
-    -file: intro.md
+    chapters:
+      - file: intro.md
+
   - caption: "Theorie"
     chapters:
       - file: notebooks/Intro.ipynb
       - file: notebooks/chapter1.ipynb
       - file: notebooks/tlsJNCsim.ipynb
         title: "TLS JNC Simulation"
+
   - caption: "Rotating Wave Analysis"
     chapters:
       - file: notebooks/chapter2.ipynb
       - file: notebooks/chapter3.ipynb
       - file: notebooks/chapter4.ipynb
+
   - caption: "Conclusions"
-    - file: notebooks/chapter5.ipynb
+    chapters:
+      - file: notebooks/chapter5.ipynb
+
