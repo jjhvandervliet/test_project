@@ -1,6 +1,6 @@
 format: jb-book
-
 root: intro.md
+title: Introduction
 
 parts:
   - caption: "Part1"
