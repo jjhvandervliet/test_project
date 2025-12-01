@@ -55,5 +55,26 @@ sphinx:
     - sphinx_tudelft_theme
     - sphinx_nb_execution_patterns
 
+parse:
+  myst_enable_extensions:
+    # don't forget to list any other extensions you want enabled,
+    # including those that are enabled by default!
+    # https://jupyterbook.org/customize/config.html?highlight=myst_enable_extensions
+    # https://myst-parser.readthedocs.io/en/latest/syntax/optional.html
+    - amsmath
+    # - calligra
+    - colon_fence
+    - deflist
+    - dollarmath
+    - html_admonition
+    - html_image
+    - linkify
+    - replacements
+    - smartquotes
+    - substitution
+  myst_dmath_double_inline: true  # Allow display math ($$) within an inline context
+
+
+
 bibtex_bibfiles:
   - references.bib
