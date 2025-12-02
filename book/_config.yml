@@ -58,7 +58,6 @@ sphinx:
     - teachbooks_favourites
     - sphinx_tudelft_theme
     - sphinx_nb_execution_patterns
-    - jupyter_sphinx
 
 parse:
   myst_enable_extensions:
