@@ -7,6 +7,7 @@ parts:
   - caption: "Theory"
     chapters:
       - file: notebooks/Intro.ipynb
+      - file: notebooks/Theory.ipynb
       - file: notebooks/chapter1.ipynb
       - file: notebooks/tlsJNCsim.ipynb
         title: "TLS JNC Simulation"

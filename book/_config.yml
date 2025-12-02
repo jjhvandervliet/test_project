@@ -26,6 +26,7 @@ sphinx:
     # LIST THE NOTEBOOKS YOU WANT TO EXECUTE DURING BUILD
     nb_execution_includepatterns:
       - "notebooks/intro.ipynb"
+      - "notebooks/Theory.ipynb"
       - "notebooks/tlsJNCsim.ipynb"
       - "notebooks/chapter1.ipynb"
       - "notebooks/chapter2.ipynb"
