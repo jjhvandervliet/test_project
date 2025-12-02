@@ -76,6 +76,13 @@ parse:
     - substitution
     - hide_code
   myst_dmath_double_inline: true # Allow display math ($$) within an inline context
+  
+markdown: kramdown
 
+kramdown:
+  math_engine: mathjax
+  math_engine_opts:
+    preview: false
+  
 bibtex_bibfiles:
   - references.bib
