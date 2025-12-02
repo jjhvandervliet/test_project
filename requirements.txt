@@ -22,7 +22,6 @@ python-markdown-math
 mkdocs-material<5
 
 Jinja2<3.1
-sphinx<5.0
 nbconvert<6.0.0
 
 # # docutils version for reference page formatting
