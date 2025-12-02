@@ -14,6 +14,7 @@ parts:
 
   - caption: "Rotating Wave Analysis"
     chapters:
+      - file: notebooks/rwa.ipynb
       - file: notebooks/chapter2.ipynb
       - file: notebooks/chapter3.ipynb
       - file: notebooks/chapter4.ipynb
@@ -21,4 +22,3 @@ parts:
   - caption: "Conclusions"
     chapters:
       - file: notebooks/chapter5.ipynb
-

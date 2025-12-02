@@ -27,6 +27,7 @@ sphinx:
     nb_execution_includepatterns:
       - "notebooks/intro.ipynb"
       - "notebooks/Theory.ipynb"
+      - "notebooks/rwa.ipynb"
       - "notebooks/tlsJNCsim.ipynb"
       - "notebooks/chapter1.ipynb"
       - "notebooks/chapter2.ipynb"
@@ -77,6 +78,5 @@ parse:
     - hide_code
   myst_dmath_double_inline: true # Allow display math ($$) within an inline context
 
-  
 bibtex_bibfiles:
   - references.bib
