@@ -54,10 +54,16 @@ sphinx:
     html_last_updated_fmt: "%B %-d, %Y"
     html_show_copyright: false
 
+  extensions:
+    - sphinxcontrib.bibtex
+
   extra_extensions:
     - teachbooks_favourites
     - sphinx_tudelft_theme
     - sphinx_nb_execution_patterns
+  
+  bibtex_bibfiles:
+    - references.bib
 
 parse:
   myst_enable_extensions:
@@ -74,5 +80,4 @@ parse:
     - linkify
   myst_dmath_double_inline: true # Allow display math ($$) within an inline context
 
-bibtex_bibfiles:
-  - references.bib
+  
