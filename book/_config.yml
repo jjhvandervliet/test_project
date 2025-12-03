@@ -49,7 +49,7 @@ sphinx:
       use_issues_button: true
 
       launch_buttons:
-        thebe: false
+        thebe: true
 
     html_last_updated_fmt: "%B %-d, %Y"
     html_show_copyright: false
