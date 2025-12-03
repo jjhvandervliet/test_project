@@ -23,6 +23,12 @@ html:
 
 sphinx:
   config:
+    extensions:
+      - sphinxcontrib.bibtex
+      - sphinx_thebe
+    
+    bibtex_bibfiles:
+      - references.bib
     # LIST THE NOTEBOOKS YOU WANT TO EXECUTE DURING BUILD
     nb_execution_includepatterns:
       - "notebooks/intro.ipynb"
@@ -53,12 +59,6 @@ sphinx:
 
     html_last_updated_fmt: "%B %-d, %Y"
     html_show_copyright: false
-    
-    extensions:
-      - sphinxcontrib.bibtex
-    
-    bibtex_bibfiles:
-      - references.bib
   
   extra_extensions:
     - teachbooks_favourites
