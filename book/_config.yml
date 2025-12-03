@@ -5,7 +5,7 @@ execute:
   execute_notebooks: "auto"
 
 repository:
-  url: "https://github.com/jjhvandervliet/test_project"
+  url: "https://github.com/jjhvandervliet/RWA-breakdown-QSM"
   branch: "main"
   path_to_book: "book/"
 
@@ -44,7 +44,7 @@ sphinx:
       exclude_patterns: ["**/_*.yml", "**/*.md", "**/*.ipynb"]
 
     html_theme_options:
-      repository_url: "https://github.com/jjhvandervliet/test_project"
+      repository_url: "https://github.com/jjhvandervliet/RWA-breakdown-QSM"
       use_repository_button: true
       use_issues_button: true
 
