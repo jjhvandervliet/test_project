@@ -76,7 +76,6 @@ parse:
     - colon_fence
     - deflist
     - html_admonition
-    - citations
     - html_image
     - linkify
   myst_dmath_double_inline: true # Allow display math ($$) within an inline context
