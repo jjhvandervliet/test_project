@@ -21,17 +21,9 @@ html:
 
   theme: sphinx_book_theme
 
-sphinx:
-  config:
-    use_multitoc_numbering: false
+sphinx: 
     
-    extensions:
-      - sphinxcontrib.bibtex
-      - sphinx_thebe
-    
-    bibtex_bibfiles:
-      - references.bib
-      
+   
     nb_execution_includepatterns:
       - "notebooks/*.ipynb"
 
@@ -71,6 +63,11 @@ parse:
     - html_admonition
     - html_image
     - linkify
+    - sphinxcontrib.bibtex
+    - sphinx_thebe
   myst_dmath_double_inline: true # Allow display math ($$) within an inline context
-
+  
+bibtex_bibfiles:
+  - references.bib
+      
   
