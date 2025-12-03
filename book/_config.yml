@@ -55,10 +55,10 @@ sphinx:
     html_show_copyright: false
     
     extensions:
-    - sphinxcontrib.bibtex
+      - sphinxcontrib.bibtex
     
     bibtex_bibfiles:
-    - references.bib
+      - references.bib
   
   extra_extensions:
     - teachbooks_favourites
