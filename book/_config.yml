@@ -77,7 +77,7 @@ parse:
     - smartquotes
     - substitution
     - hide_code
-  myst_dmath_double_inline: true # Allow display math ($$) within an inline context
+  myst_dmath_double_inline: false # Allow display math ($$) within an inline context
 
 bibtex_bibfiles:
   - references.bib
