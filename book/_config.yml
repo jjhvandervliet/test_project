@@ -66,18 +66,13 @@ parse:
     # https://jupyterbook.org/customize/config.html?highlight=myst_enable_extensions
     # https://myst-parser.readthedocs.io/en/latest/syntax/optional.html
     - amsmath
-    # - calligra
+    - dollarmath
     - colon_fence
     - deflist
-    - dollarmath
     - html_admonition
     - html_image
     - linkify
-    - replacements
-    - smartquotes
-    - substitution
-    - hide_code
-  myst_dmath_double_inline: false # Allow display math ($$) within an inline context
+  myst_dmath_double_inline: true # Allow display math ($$) within an inline context
 
 bibtex_bibfiles:
   - references.bib
