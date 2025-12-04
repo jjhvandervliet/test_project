@@ -15,8 +15,7 @@ transmon device (not to scale). {cite:p}`Koch2007`
 :::
 
 ::: {#43fb43e7-545c-474c-9a96-b35f482afdcd .cell .markdown}
-![alt
-text](../figures/Coupling-a-transmon-to-a-resonator-a-Effective-circuit-diagram-showing-the-transmon.png)
+![alt text](../figures/Coupling-a-transmon-to-a-resonator-a-Effective-circuit-diagram-showing-the-transmon.png)
 :::
 
 ::: {#1d762924-8fbd-478b-abbe-bef761dd1ea4 .cell .markdown}
