@@ -1,0 +1,73 @@
+title: RWA breakdown
+author: Aadi, Jochem, Raul, Victor
+
+execute:
+  execute_notebooks: "auto"
+
+repository:
+  url: "https://github.com/jjhvandervliet/RWA-breakdown-QSM"
+  branch: "main"
+  path_to_book: "book/"
+
+html:
+  favicon: "figures/favicon.ico"
+  baseurl: ""
+  # use_issues_button: true
+  # use_repository_button: true
+
+  use_edit_page_button: true
+  use_repository_button: true
+  extra_navbar: "" # Will be displayed underneath the left navbar. This setting overrides the default 'powered by Jupyter Book'
+
+  theme: sphinx_book_theme
+
+sphinx:
+  config:
+    # LIST THE NOTEBOOKS YOU WANT TO EXECUTE DURING BUILD
+    nb_execution_includepatterns:
+      - "notebooks/Theory.ipynb"
+      - "notebooks/rwa.ipynb"
+      - "notebooks/wigner.ipynb"
+      - "Test8_Report4[1].ipynb"
+      - "notebooks/conclusion.ipynb"
+
+    html_js_files:
+      - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
+
+    thebe_config:
+      use_thebe_lite: false
+      exclude_patterns: ["**/_*.yml", "**/*.md", "**/*.ipynb"]
+
+    html_theme_options:
+      repository_url: "https://github.com/jjhvandervliet/RWA-breakdown-QSM"
+      use_repository_button: true
+      use_issues_button: true
+
+      launch_buttons:
+        thebe: true
+
+    html_last_updated_fmt: "%B %-d, %Y"
+    html_show_copyright: false
+
+  extra_extensions:
+    - teachbooks_favourites
+    - sphinx_tudelft_theme
+    - sphinx_nb_execution_patterns
+
+parse:
+  myst_enable_extensions:
+    # don't forget to list any other extensions you want enabled,
+    # including those that are enabled by default!
+    # https://jupyterbook.org/customize/config.html?highlight=myst_enable_extensions
+    # https://myst-parser.readthedocs.io/en/latest/syntax/optional.html
+    - amsmath
+    - dollarmath
+    - colon_fence
+    - deflist
+    - html_admonition
+    - html_image
+    - linkify
+  myst_dmath_double_inline: true # Allow display math ($$) within an inline context
+
+bibtex_bibfiles:
+  - references.bib
