@@ -6,21 +6,13 @@ title: Introduction
 parts:
   - caption: "Theory"
     chapters:
-      # - file: notebooks/Intro.ipynb   #empty
       - file: notebooks/Theory.ipynb
-      # - file: notebooks/Theory.md
-      # - file: notebooks/chapter1.ipynb   #empty
-      # - file: notebooks/tlsJNCsim.ipynb   #Old
-      #   title: "TLS JNC Simulation"
 
   - caption: "Rotating Wave Analysis"
     chapters:
       - file: notebooks/rwa.ipynb
-      # - file: notebooks/eigenstates.ipynb  #old wigner function notebook
       - file: notebooks/wigner.ipynb #wigner func comparison
       - file: notebooks/Test8_Report4[1].ipynb
-      # - file: notebooks/chapter3.ipynb   #empty
-      # - file: notebooks/chapter4.ipynb   #empty
 
   - caption: "Conclusions"
     chapters:
