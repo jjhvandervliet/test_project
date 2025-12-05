@@ -5,5 +5,7 @@ In this project we will be exploring the breadown of the rotating wave approxima
 As the hamiltonian is the observable for energy, we will explore how the energy eigenstates differ for the hamiltonian with and without RWA.
 
 ## We will in detail look at:
+- The derivation of JC Hamiltonian and discuss what the RWA is
 - The difference in eigenenergies for increasing decoupling
 - Changes in the wigner function of the ground state and the corresponding \(x\) and \(p\) distrubutions
+- How the RWA deviates of the RWA using the Lindblad master equation
