@@ -24,4 +24,4 @@ parts:
 
   - caption: "Conclusions"
     chapters:
-      - file: notebooks/chapter5.ipynb #empty
+      - file: notebooks/conclusion.ipynb #empty
