@@ -1,6 +1,6 @@
 # Author Contributions
 
-Raul de Brouwer (5947650)
+Raul de Brouwer 
 - Secretary for weekly meetings. Worked on collecting papers before starting with simulations. Started and finished theory chapter. Further, also worked on RWA simulations of 2-level system and made a field squeezing effects test. Helped with conclusion/introduction. Worked on references and citations and lastly also helped with bugfixes/spelling.
 
 Jochem van der Vliet 
