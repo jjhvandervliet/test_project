@@ -17,7 +17,7 @@ parts:
     chapters:
       - file: notebooks/rwa.ipynb
       # - file: notebooks/eigenstates.ipynb  #old wigner function notebook
-      - file: notebooks/chapter2.ipynb #wigner func comparison
+      - file: notebooks/wigner.ipynb #wigner func comparison
       - file: notebooks/Test8_Report4[1].ipynb
       # - file: notebooks/chapter3.ipynb   #empty
       # - file: notebooks/chapter4.ipynb   #empty
