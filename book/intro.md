@@ -6,7 +6,6 @@ In this project we will be exploring the breadown of the rotating wave approxima
 - How do does the hamiltonian differ with and without RWA?
 - What does the RWA imply physically?
 - In what conditions is the RWA approximation good and in which, not accurate?
-- How can we calibrate our system to avoid or cause breakdown of RWA?
 
 ## We will conduct the following experiments:
 As the hamiltonian is the observable for energy, we will explore how the energy eigenstates differ for the hamiltonian with and without RWA. We will vary the detuning and coupling paramters and explore when the energy eigenstates breakdown.
@@ -14,7 +13,7 @@ As the hamiltonian is the observable for energy, we will explore how the energy 
 - The derivation of JC Hamiltonian and discuss what the RWA is.
 - The difference in eigenenergies for increasing decoupling and detuning. 
 - Changes in the wigner function of the ground state and the corresponding \(x\) and \(p\) distrubutions.
-- How the RWA deviates under the Lindblad master equation.
+- How the RWA deviates under the Lindblad master equation with noise and measurement operators.
 
 
 **AI Usage Policy : We have used AI to help with markdown formatting and improving our plots / animations.**
